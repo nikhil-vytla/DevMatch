@@ -10,8 +10,10 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+// Check out https://github.com/twbs/bootstrap-sass for more information on Bootstrap Sass gems.
+//
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap-sprockets
+//= require bootstrap-sprockets 
 //= require turbolinks
 //= require_tree .
