@@ -5,14 +5,16 @@ class ContactsController < ApplicationController
   def create # By default, Rails uses the create action to save to a db
     @contact = Contact.new(contact_params) # Mass assignment (assigning multiple values simultaneously to the attributes of the object) {name: 'asdf', email: 'asdf', comments: 'asdf'}
     if @contact.save
-       redirect_to new_contact_path, notice: "Message sent."
+      flash[:success] = "Message sent."
+      redirect_to new_contact_path
     else
-       redirect_to new_contact_path, notice: "Error occured."
+      flash[:error] = @contact.errors.full_messages.join(", ")
+      redirect_to new_contact_path
     end
   end
   private
     def contact_params # Strong parameters used for security in Rails to assign content within text fields to the variables
-       params.require(:contact).permit(:name, :email, :comments)
+      params.require(:contact).permit(:name, :email, :comments)
     end
 end
 
