@@ -37,6 +37,12 @@ h1, h2, h3 {
 .navbar {
   border: none;
 }
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a { /* Able to group different attributes by comma-separation */
   color: white;
