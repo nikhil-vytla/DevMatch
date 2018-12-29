@@ -13,6 +13,7 @@
 // Check out https://github.com/twbs/bootstrap-sass for more information on Bootstrap Sass gems.
 //
 // The Rails asset pipeline feature has three main proponents: (1) reduces load on the server, (2) reduces cost, and (3) it makes your site load faster.
+// Check out https://guides.rubyonrails.org/asset_pipeline.html for more information.
 //
 //= require jquery
 //= require jquery_ujs
