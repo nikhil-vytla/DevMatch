@@ -5,7 +5,7 @@ class ContactsController < ApplicationController
   def create # By default, Rails uses the create action to save to a db
     @contact = Contact.new(contact_params) # Mass assignment (assigning multiple values simultaneously to the attributes of the object) {name: 'asdf', email: 'asdf', comments: 'asdf'}
     if @contact.save
-      name = params[:contact][:name]
+      name = params[:contact][:name] # Able to access nested hash (ex. params = { contact {name: John Doe, email: asdf@asdf.com, commments: "asdfasdf"} })
       email = params[:contact][:email]
       body = params[:contact][:comments]
       ContactMailer.contact_email(name, email, body).deliver
