@@ -8,7 +8,7 @@ class ContactsController < ApplicationController
       flash[:success] = "Message sent."
       redirect_to new_contact_path
     else
-      flash[:error] = @contact.errors.full_messages.join(", ")
+      flash[:danger] = @contact.errors.full_messages.join(", ")
       # Errors is a flash hash that contains key-value pairs consisting of errors, and we access it by calling the hash and displaying it.
       redirect_to new_contact_path
     end
