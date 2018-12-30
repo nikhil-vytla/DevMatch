@@ -4,6 +4,7 @@
 # Rails takes care of the object blueprints via the schema.rb
 # Check out https://guides.rubyonrails.org/active_record_validations.html for more info on active record validations.
 class Contact < ActiveRecord::Base
+  # Contact form validations
   validates :name, presence: true
   validates :email, presence: true
   validates :comments, presence: true
