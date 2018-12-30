@@ -3,3 +3,7 @@ Memberships
 * User should see link for Pro plan on home page
 * Basic plan link should point to regular Devise sign up form
 * Pro plan link should point to a custom sign up form
+
+ActiveRecord - Rails way of querying the database [Model in MVC] and 
+Parameters
+Substitution
