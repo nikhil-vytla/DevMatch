@@ -13,7 +13,7 @@
       <div class="well">
         <h2>Sign up</h2>
         <% if params[:plan] == '2' %>
-          <%= render "pro_form" %>
+          <%= render "pro_form" %> <!-- [render] allows Ruby to push in partial forms (i.e. forms with an underscore in the front of the title) -->
         <% else %>
           <%= render "basic_form" %>
         <% end %>
