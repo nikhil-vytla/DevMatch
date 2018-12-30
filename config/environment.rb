@@ -1,6 +1,7 @@
 # Load the Rails application.
 require_relative 'application'
 
+# Check out https://devcenter.heroku.com/articles/mailgun for more information on Mailgun.
 ActionMailer::Base.smtp_settings = {
   :port           => ENV['MAILGUN_SMTP_PORT'],
   :address        => ENV['MAILGUN_SMTP_SERVER'],
