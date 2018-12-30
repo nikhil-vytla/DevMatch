@@ -6,6 +6,7 @@ class User < ApplicationRecord
   
   # Check out https://guides.rubyonrails.org/association_basics.html for more information on active record associations.
   belongs_to :plan
+  has_one :profile
   
   attr_accessor :stripe_card_token
   # If Pro user passes validations (email, password, etc.), then call Stripe and
