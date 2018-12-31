@@ -3,28 +3,28 @@
 Welcome to DevMatch, a fully functional, responsive Software-as-a-Service (Saas) Ruby on Rails web app dedicated to bringing developers, investors, and entrepreneurs together.
 
 ## Inspiration
-We saw a rising need in today's society for quality healthcare via technology. For many people, not only in the state of North Carolina but all over the US and around the world, access to complete medical services is not feasible, and thus we decided to build another path to help them determine their next steps in healthcare. In addition, many of our close friends and family have been drastically impacted by recent events such as Hurricane Florence and Hurricane Michael, so this is an issue that's close to our hearts.
+The students of today require modern solutions for modern problems. For many of us, not only in the US but also around the world, access to definitive pipelines for industry connections and educational resources is severely lacking, and thus DevMatch rose as a streamlined path to help the innovators, developers, and entrepreneurs of the future get a headstart.
 
 ## What DevMatch does
-Medic AI has several functions. The Facebook Messenger Chatbot is intended to help users narrow down potential causes of their symptoms so they can make more informed decisions for their approach to illness or discomfort that they may be experiencing. We also implemented two interactive data visualizations that provide greater insight into the availability of drugs and pharmaceuticals in the United States as well as historical trends on mortality. This is all compiled into an accessible, user-friendly website which includes resources through FEMA that provide more information on health case studies using machine learning.
+DevMatch has several functions. The social networking community and site are intended to help users identify key people established in industry so they can make more informed decisions and gain vital contact information from leading professionals. I also implemented DevMatch as an entirely RESTful site, built with multiple contact functionalities and messaging services. This is all compiled into an accessible, user-friendly website which includes resources to industry insights and economic outlooks.
 
 ## How I built it
-### Facebook Messenger Chatbot
-We used a Node.js back-end along with a Heroku server to implement our Facebook Messenger Chatbot. The Chatbot uses IBM Watson's NLP libraries to actively process user input and direct the user toward medical information and resources.
+### RESTful APIs and Bootstrap
+DevMatch's creation required building and utilizing functional RESTful APIs and packages to create a responsive site. The site is styled mainly with Twitter's Bootstrap.js library and is compiled via Amazon's AWS Cloud9. The backend server is supported by Heroku.
 
-### Data Visualizations
-All data visualizations were completed in Tableau using public datasets from the National Center for Biotechnology Information (NCBI) and the National Center for Health Statistics (NCHS). All gradient color schemes and data analysis is fully integrated into Tableau.
+### Ruby on Rails, SQL, Gems, Stripe API
+The site is primarily built in Ruby using the established Ruby on Rails framework. Development database querying is handling by SQLite3 whereas production querying is handled through PostgreSQL (check out the Gemfile for in-depth information). The contact mailing system is handled through Heroku's integration with Mailgun, and several FOSS gems are used throughout production including Hirb Gem for database processing, Devise Gem for user auth, Figaro Gem for API handling, and Thoughtbot Gem (Paperclip) for image containment. Major languages used include **HTML5, CSS3/Sass, Javascript, SQL, and Ruby**.
 
 ## Challenges I ran into
-In the process of making the chatbot, we ran into several issues with testing. Additionally, we had difficulties connecting to the Facebook server on multiple occasions, and the NGROK library proved challenging for the back-end. We also had problems with configuring and setting up Heroku because we had no prior experience with a cloud server like it.
+In the process of making the site, I ran into several production issues with Heroku. Additionally, I encountered difficulties connecting to the development server on several instances, and the rails versioning proved challenging for the back-end.
 
 ## Accomplishments that I'm proud of
-We're amazed that we were able to carry out our ambitious plans in our limited time frame, especially with our combined inexperience. We faced many set-backs with the chatbot, so ultimately having a working version was extremely fulfilling.
+I amazed that I was able to complete DevMatch over such a small duration, especially considering my lack of experience with Ruby on Rails and SQL. I faced many set-backs with the site interface, so ultimately having a working version of the site pushed into production was extremely fulfilling.
 
 ## What I learned
-Coming into this hackathon as a novice team, we had absolutely no experience with anything related to chatbots, and minimal experience with Tableau data visualizations. However, we managed to bridge this gap by working together to solve problems and debugging various issues as a team. Ultimately, we needed to connect all of our separate skill-sets together, and finding that common ground really allowed us to progress. We were also able to experiment with new technologies such as Node.js, Google Firebase, MongoDB, and others.
+Coming into this project as a Ruby novice, I had absolutely no experience with anything related to the Rails framework, and minimal experience with Heroku servers and design. However, I managed to bridge this gap by constantly pushing myself to learn more about Ruby, poring over documentation, and seeking help when needed on StackOverflow and Google. Ultimately, I needed to think and rethink the overall coding process, and finding that common ground and challenging myself to truly understand code instead of haphazardly copying it from forum pages really allowed me to progress. I was also able to experiment with new technologies such as AWS Cloud9, PostgreSQL, Paperclip, and others.
 
 ## What's next for DevMatch
-We hope to expand our data visualization beyond the US to offer the same kind of services to other countries. We'd also like to provide more analysis on a case-by-case basis through the chatbot to come up with more accurate healthcare suggestions.
+I hope to expand the site into a fully integrated site complete with enhanced user experiences and design. I'm also actively pushing myself to create an iOS app for DevMatch, which I hope to push into production soon! Stay tuned for more updates!
 
 Made with ♥ in 2018
