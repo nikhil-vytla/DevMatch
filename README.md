@@ -6,7 +6,7 @@ Welcome to DevMatch, a fully functional, responsive Software-as-a-Service (Saas)
 The students of today require modern solutions for modern problems. For many of us, not only in the US but also around the world, access to definitive pipelines for industry connections and educational resources is severely lacking, and thus DevMatch rose as a streamlined path to help the innovators, developers, and entrepreneurs of the future get a headstart.
 
 ## What DevMatch does
-DevMatch has several functions. The social networking community and site are intended to help users identify key people established in industry so they can make more informed decisions and gain vital contact information from leading professionals. I also implemented DevMatch as an entirely RESTful site, built with multiple contact functionalities and messaging services. This is all compiled into an accessible, user-friendly website which includes resources to industry insights and economic outlooks.
+DevMatch has several functions. The social networking community and site are intended to help users identify key people established in industry so they can make more informed decisions and gain vital contact information from leading professionals. I also implemented DevMatch as an entirely RESTful web application, built with multiple contact functionalities and messaging services. This is all compiled into an accessible, user-friendly website which includes resources to industry insights and economic outlooks.
 
 ## How I built it
 ### RESTful APIs and Bootstrap
