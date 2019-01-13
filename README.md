@@ -19,7 +19,7 @@ The site is primarily built in Ruby using the established Ruby on Rails framewor
 In the process of making the site, I ran into several production issues with Heroku. Additionally, I encountered difficulties connecting to the development server on several instances, and the rails versioning proved challenging for the back-end.
 
 ## Accomplishments that I'm proud of
-I amazed that I was able to complete DevMatch over such a small duration, especially considering my lack of experience with Ruby on Rails and SQL. I faced many set-backs with the site interface, so ultimately having a working version of the site pushed into production was extremely fulfilling.
+I'm amazed that I was able to complete DevMatch over such a small duration, especially considering my lack of experience with Ruby on Rails and SQL. I faced many set-backs with the site interface, so ultimately having a working version of the site pushed into production was extremely fulfilling.
 
 ## What I learned
 Coming into this project as a Ruby novice, I had absolutely no experience with anything related to the Rails framework, and minimal experience with Heroku servers and design. However, I managed to bridge this gap by constantly pushing myself to learn more about Ruby, poring over documentation, and seeking help when needed on StackOverflow and Google. Ultimately, I needed to think and rethink the overall coding process, and finding that common ground and challenging myself to truly understand code instead of haphazardly copying it from forum pages really allowed me to progress. I was also able to experiment with new technologies such as AWS Cloud9, PostgreSQL, Paperclip, and others.
