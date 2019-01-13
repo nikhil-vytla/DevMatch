@@ -26,4 +26,4 @@ Coming into this project as a Ruby novice, I had absolutely no experience with a
 ## What's next for DevMatch
 I hope to expand the site into a fully integrated site complete with enhanced user experiences and design. I'm also actively pushing myself to create an iOS app for DevMatch, which I hope to push into production soon! Stay tuned for more updates!
 
-Made with ♥ in 2018
+Made with ❤ in 2018
