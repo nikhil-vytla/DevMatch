@@ -1,5 +1,5 @@
 # DevMatch
-Welcome to DevMatch, a fully functional, responsive Software-as-a-Service (Saas) Ruby on Rails web app dedicated to bringing developers, investors, and entrepreneurs together.
+Welcome to DevMatch, a fully functional, responsive Software-as-a-Service (SaaS) Ruby on Rails web app dedicated to bringing developers, investors, and entrepreneurs together.
 
 ## Inspiration
 The students of today require modern solutions for modern problems. For many of us, not only in the US but also around the world, access to definitive pipelines for industry connections and educational resources is severely lacking, and thus DevMatch rose as a streamlined path to help the innovators, developers, and entrepreneurs of the future get a headstart.
